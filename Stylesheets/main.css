@@ -30,6 +30,10 @@ html, body {
   height: 95vh;
 }
 
+.panelContent{
+  padding: 1em;
+}
+
 .panelHeader h1{
   font-family: 'DM Serif Text', serif;
   margin-top: 35%;
