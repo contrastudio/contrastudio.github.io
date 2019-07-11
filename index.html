@@ -2,60 +2,52 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <link rel="icon" href="img/LogoZtech.jpg">
+    <link rel="icon" href="Resources/Images/LogoBlack.png">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Contra Studio</title>
     <link rel="stylesheet"
     href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
     integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
     crossorigin="anonymous">
-    <link rel="stylesheet" href="css/stylesheet.css">
+    <link rel="stylesheet" href="Stylesheets/main.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-    <script type="text/javascript" src="js/script.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
     integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
     crossorigin="anonymous"></script>
-    <link href="https://fonts.googleapis.com/css?family=Special+Elite" rel="stylesheet">
-
+    <link href="https://fonts.googleapis.com/css?family=DM+Serif+Text&display=swap" rel="stylesheet">
+    <script type="text/javascript" src="Scripts/lampyridae-0.3.5-min.js"></script>
   </head>
   <body>
-
-    <div class="container-fluid">
-
-        <div class="wrapper-menu">
-          <div class="line-menu half start"></div>
-          <div class="line-menu"></div>
-          <div class="line-menu half end"></div>
+    <img class="logoMain" src="./Resources/Images/LogoWhite.png" alt="logo"/>
+    <canvas id="world">
+    </canvas>
+    <div class="row" id="whoWeAre">
+      <div class="container col-md-6">
+        <div class="panelHeader col-md-6 col-md-offset-6">
+            <h1>Who <br/>We Are</h1>
         </div>
-
-
-      <div class="navigation col-md-offset-10 text-right">
-        <ol>
-          <li><a href="#"><h4>HOME</a></h4></li>
-          <li><a href="about.html"><h4>ABOUT</a></h4></li>
-          <li><a href="#"><h4>SER<span class="flickr">V</span>ICES</a></h4></li>
-          <li><a href="#"><h4>PROJECTS</a></h4></li>
-          <li><a href="#"><h4>CONTACT</a></h4></li>
-        </ol>
       </div>
-
-      <div class="title text-center col-md-offset-6">
-        <h1>
-          Con<span class="flickr">tra</span> <br/>Studi<span class="flickr">o</span>
-        </h1>
-        <br>
-        <h5>
-          Cre<span class="flickr">ativ</span>e
-          De<span class="flickr">v</span>elopmen<span class="flickr">t</span>
-        </h5>
-      </div>
+      <div class="container col-md-6">
+          <div class="panelContent">
+              <h2>
+                  Contra Studio is a marketing<br/> 
+                  agency specializing in websites<br/> 
+                  & digital designs that stir emotion,<br/> 
+                  have personality and drive results.
+              </h2>
+              <p>
+                  We get up in the morning because we love what we do, <br/>
+                  making impactful websites come to life while helping <br/>
+                  people like you make a dent in the world. Our 9-5 isn't <br/>
+                  dull and neither should yours be. Laughter, it makes <br/>
+                  work more fun and transforms projects into a passion <br/>
+                  rather than a task. We’ll treat you fairly, share some <br/>
+                  humor, work with you to solve your complex problems and <br/>
+                  achieve your goals.
+              </p>
+          </div>
+        </div>
     </div>
-
-    <div class="social">
-      <a href="https://www.facebook.com/contrastudios.co/"><img src="img/facebook.png" alt=""></a><br>
-      <a href="https://www.instagram.com/contra_studio/"><img src="img/insta.png" alt=""></a><br>
-      <a href="https://github.com/orgs/contrastudio/"><img src="img/git.png" alt=""></a>
-    </div>
-
+    <script type="text/javascript" src="Scripts/gravity.js"></script>
   </body>
 </html>

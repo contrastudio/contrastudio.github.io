@@ -1,0 +1,22 @@
+{
+  "name": "contrastudio.github.io",
+  "version": "1.0.0",
+  "description": "Portfolio Website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/contrastudio/contrastudio.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/contrastudio/contrastudio.github.io/issues"
+  },
+  "homepage": "https://github.com/contrastudio/contrastudio.github.io#readme",
+  "dependencies": {
+    "lampyridae.coffee": "^0.2.6"
+  }
+}
